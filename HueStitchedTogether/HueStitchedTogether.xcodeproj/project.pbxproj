@@ -119,14 +119,10 @@
 		9771366018A755B40071877B /* HueStitchedTogether */ = {
 			isa = PBXGroup;
 			children = (
-				9771366918A755B40071877B /* AppDelegate.h */,
-				9771366A18A755B40071877B /* AppDelegate.m */,
-				9771366C18A755B40071877B /* Main_iPhone.storyboard */,
-				9771366F18A755B40071877B /* Main_iPad.storyboard */,
-				9771367218A755B40071877B /* FirstViewController.h */,
-				9771367318A755B40071877B /* FirstViewController.m */,
-				9771367518A755B40071877B /* SecondViewController.h */,
-				9771367618A755B40071877B /* SecondViewController.m */,
+				9771369A18A767E00071877B /* AppDelegate */,
+				9771369918A767D80071877B /* Storyboards */,
+				9771369718A7678A0071877B /* FirstViewController */,
+				9771369818A767940071877B /* SecondViewController */,
 				9771369518A75B020071877B /* hue-controlpad */,
 				9771367818A755B40071877B /* Images.xcassets */,
 				9771366118A755B40071877B /* Supporting Files */,
@@ -161,6 +157,42 @@
 				9771368818A755B40071877B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9771369718A7678A0071877B /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9771367218A755B40071877B /* FirstViewController.h */,
+				9771367318A755B40071877B /* FirstViewController.m */,
+			);
+			name = FirstViewController;
+			sourceTree = "<group>";
+		};
+		9771369818A767940071877B /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9771367518A755B40071877B /* SecondViewController.h */,
+				9771367618A755B40071877B /* SecondViewController.m */,
+			);
+			name = SecondViewController;
+			sourceTree = "<group>";
+		};
+		9771369918A767D80071877B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9771366C18A755B40071877B /* Main_iPhone.storyboard */,
+				9771366F18A755B40071877B /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9771369A18A767E00071877B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9771366918A755B40071877B /* AppDelegate.h */,
+				9771366A18A755B40071877B /* AppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
