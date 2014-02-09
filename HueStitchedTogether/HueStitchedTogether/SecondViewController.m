@@ -18,8 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
-    _versionLabel.text = version;
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    NSString *build = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    _buildLabel.text = [NSString stringWithFormat:@"build: %@", build];
+    _versionLabel.text = [NSString stringWithFormat:@"version: %@", version];;
 }
 
 - (void)didReceiveMemoryWarning

@@ -11,5 +11,6 @@
 @interface SecondViewController : UIViewController
 
 @property (nonatomic, weak) IBOutlet UILabel *versionLabel;
+@property (nonatomic, weak) IBOutlet UILabel *buildLabel;
 
 @end
