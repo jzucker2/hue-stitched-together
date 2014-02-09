@@ -1,0 +1,3 @@
+[submodule "hue-controlpad"]
+	path = hue-controlpad
+	url = https://github.com/keyosk/hue-controlpad.git
