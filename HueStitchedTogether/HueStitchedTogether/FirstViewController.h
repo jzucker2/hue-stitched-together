@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <UIWebViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UIWebView *lightWebView;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem *refreshBarButtonItem;
+
+- (IBAction)refreshAction:(id)sender;
 
 @end

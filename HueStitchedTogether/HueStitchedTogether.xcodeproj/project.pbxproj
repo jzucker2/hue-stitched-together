@@ -23,6 +23,7 @@
 		9771368218A755B40071877B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9771365E18A755B40071877B /* UIKit.framework */; };
 		9771368A18A755B40071877B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9771368818A755B40071877B /* InfoPlist.strings */; };
 		9771368C18A755B40071877B /* HueStitchedTogetherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9771368B18A755B40071877B /* HueStitchedTogetherTests.m */; };
+		9771369618A75B020071877B /* hue-controlpad in Resources */ = {isa = PBXBuildFile; fileRef = 9771369518A75B020071877B /* hue-controlpad */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		9771368718A755B40071877B /* HueStitchedTogetherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HueStitchedTogetherTests-Info.plist"; sourceTree = "<group>"; };
 		9771368918A755B40071877B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9771368B18A755B40071877B /* HueStitchedTogetherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HueStitchedTogetherTests.m; sourceTree = "<group>"; };
+		9771369518A75B020071877B /* hue-controlpad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "hue-controlpad"; path = "../../hue-controlpad"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				9771367318A755B40071877B /* FirstViewController.m */,
 				9771367518A755B40071877B /* SecondViewController.h */,
 				9771367618A755B40071877B /* SecondViewController.m */,
+				9771369518A75B020071877B /* hue-controlpad */,
 				9771367818A755B40071877B /* Images.xcassets */,
 				9771366118A755B40071877B /* Supporting Files */,
 			);
@@ -240,6 +243,7 @@
 				9771367918A755B40071877B /* Images.xcassets in Resources */,
 				9771366E18A755B40071877B /* Main_iPhone.storyboard in Resources */,
 				9771366518A755B40071877B /* InfoPlist.strings in Resources */,
+				9771369618A75B020071877B /* hue-controlpad in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
